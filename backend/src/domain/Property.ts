@@ -1,0 +1,8 @@
+export interface Property {
+  id?: number;
+  title: string;
+  price: number;
+  location: string;
+  available: boolean;
+  createdAt?: Date;
+}
